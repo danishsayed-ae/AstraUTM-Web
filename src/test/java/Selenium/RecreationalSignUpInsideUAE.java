@@ -158,7 +158,7 @@ public class RecreationalSignUpInsideUAE {
         rb.keyPress(KeyEvent.VK_ENTER);
         rb.keyRelease(KeyEvent.VK_ENTER);
 
-//        Applicant Photo
+//        Applicant Photograph
         WebElement uploadApplicantPhoto = driver.findElement(By.xpath("//label[@for='visaCopy']"));
         uploadApplicantPhoto.click();
         StringSelection uploadApplicantDocument = new StringSelection("C:\\Users\\danis\\OneDrive\\Desktop\\Documents\\");
