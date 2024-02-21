@@ -46,6 +46,7 @@ public class DroneRegistration {
 				break;
 			}
 		}
+		driver.close();
 
 	}
 
