@@ -135,7 +135,7 @@ public class RecreationalSignUpInsideUAE {
         js.executeScript("window.scrollBy(0,500)");
         Thread.sleep(2000);
 
-//        Attachment
+//        Attachment Uploads
 //        Passport
         WebElement uploadPassport = driver.findElement(By.xpath("//label[@for='passportFrontSide']"));
         uploadPassport.click();
@@ -158,10 +158,10 @@ public class RecreationalSignUpInsideUAE {
         rb.keyPress(KeyEvent.VK_ENTER);
         rb.keyRelease(KeyEvent.VK_ENTER);
 
-//        Applicant Photograph
-        WebElement uploadApplicantPhoto = driver.findElement(By.xpath("//label[@for='visaCopy']"));
+//        Applicant Photo
+        WebElement uploadApplicantPhoto = driver.findElement(By.xpath("//label[@for='applicantPhotograph']"));
         uploadApplicantPhoto.click();
-        StringSelection uploadApplicantDocument = new StringSelection("C:\\Users\\danis\\OneDrive\\Desktop\\Documents\\");
+        StringSelection uploadApplicantDocument = new StringSelection("C:\\Users\\danis\\OneDrive\\Desktop\\Documents\\Danish.jpg");
         Toolkit.getDefaultToolkit().getSystemClipboard().setContents(uploadApplicantDocument, null);
         rb.keyPress(KeyEvent.VK_CONTROL);
         rb.keyPress(KeyEvent.VK_V);
