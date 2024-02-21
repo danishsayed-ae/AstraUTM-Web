@@ -135,7 +135,7 @@ public class RecreationalSignUpInsideUAE {
         js.executeScript("window.scrollBy(0,500)");
         Thread.sleep(2000);
 
-//        Attachments
+//        Attachment
 //        Passport
         WebElement uploadPassport = driver.findElement(By.xpath("//label[@for='passportFrontSide']"));
         uploadPassport.click();
