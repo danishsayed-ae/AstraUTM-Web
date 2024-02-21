@@ -169,7 +169,7 @@ public class RecreationalSignUpInsideUAE {
         rb.keyRelease(KeyEvent.VK_ENTER);
 
 
-//        Terms and Conditions
+//        Terms and Condition
         driver.findElement(By.id("checkbox")).click();
         Thread.sleep(1000);
 
